@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 320px;
+    background-color: #fff;
+    padding: 16px 16px 16px; 
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 156px;
+}
+
+.container > img {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 24px;
+}
+
+h1 {
+    width: 288px;
+    font-size: 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: #7D889E;
+    margin-top: 16px;
+    padding-bottom: 40px;
+}
